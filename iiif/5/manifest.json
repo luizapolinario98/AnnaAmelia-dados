@@ -1,6 +1,6 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "http://anna-amelia-iiif.vercel.app/5/manifest.json",
+    "@context": "https://iiif.io/api/presentation/3/context.json",
+    "id": "https://anna-amelia-iiif.vercel.app/5/manifest.json",
     "type": "Manifest",
     "label": {
         "none": [
@@ -13,7 +13,7 @@
     },
     "thumbnail": [
         {
-            "id": "http://anna-amelia-iiif.vercel.app/5/94e0062e41f986d01bcfeeef56ae9605/full/227,300/0/default.png",
+            "id": "https://anna-amelia-iiif.vercel.app/5/94e0062e41f986d01bcfeeef56ae9605/full/227,300/0/default.png",
             "type": "Image",
             "format": "image/png",
             "height": 300,
@@ -33,31 +33,31 @@
     ],
     "items": [
         {
-            "id": "http://anna-amelia-iiif.vercel.app/5/canvas/0",
+            "id": "https://anna-amelia-iiif.vercel.app/5/canvas/0",
             "type": "Canvas",
             "height": 814,
             "width": 616,
             "items": [
                 {
-                    "id": "http://anna-amelia-iiif.vercel.app/5/canvas/0/annotation-page",
+                    "id": "https://anna-amelia-iiif.vercel.app/5/canvas/0/annotation-page",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "http://anna-amelia-iiif.vercel.app/5/annotation/0",
+                            "id": "https://anna-amelia-iiif.vercel.app/5/annotation/0",
                             "type": "Annotation",
                             "motivation": "painting",
-                            "target": "http://anna-amelia-iiif.vercel.app/5/canvas/0",
+                            "target": "https://anna-amelia-iiif.vercel.app/5/canvas/0",
                             "body": {
-                                "id": "http://anna-amelia-iiif.vercel.app/5/94e0062e41f986d01bcfeeef56ae9605/full/1514,2000/0/default.png",
+                                "id": "https://anna-amelia-iiif.vercel.app/5/94e0062e41f986d01bcfeeef56ae9605/full/1514,2000/0/default.png",
                                 "type": "Image",
                                 "format": "image/png",
                                 "height": 2000,
                                 "width": 1514,
                                 "service": [
                                     {
-                                        "id": "http://anna-amelia-iiif.vercel.app/5/94e0062e41f986d01bcfeeef56ae9605",
+                                        "id": "https://anna-amelia-iiif.vercel.app/5/94e0062e41f986d01bcfeeef56ae9605",
                                         "type": "ImageService3",
-                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                        "profile": "https://iiif.io/api/image/3/level0.json"
                                     }
                                 ]
                             }

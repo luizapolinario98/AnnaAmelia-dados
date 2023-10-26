@@ -1,6 +1,6 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "http://anna-amelia-iiif.vercel.app/index.json",
+    "@context": "https://iiif.io/api/presentation/3/context.json",
+    "id": "https://anna-amelia-iiif.vercel.app/index.json",
     "type": "Collection",
     "label": {
         "none": [
@@ -9,7 +9,7 @@
     },
     "thumbnail": [
         {
-            "id": "http://anna-amelia-iiif.vercel.app/1/727dbe60a537d8bc209de2fe40b79e13/full/300,279/0/default.png",
+            "id": "https://anna-amelia-iiif.vercel.app/1/727dbe60a537d8bc209de2fe40b79e13/full/300,279/0/default.png",
             "type": "Image",
             "format": "image/png",
             "height": 279,
@@ -18,7 +18,7 @@
     ],
     "items": [
         {
-            "id": "http://anna-amelia-iiif.vercel.app/1/manifest.json",
+            "id": "https://anna-amelia-iiif.vercel.app/1/manifest.json",
             "type": "Manifest",
             "label": {
                 "none": [
@@ -27,7 +27,7 @@
             }
         },
         {
-            "id": "http://anna-amelia-iiif.vercel.app/2/manifest.json",
+            "id": "https://anna-amelia-iiif.vercel.app/2/manifest.json",
             "type": "Manifest",
             "label": {
                 "none": [
@@ -36,7 +36,7 @@
             }
         },
         {
-            "id": "http://anna-amelia-iiif.vercel.app/3/manifest.json",
+            "id": "https://anna-amelia-iiif.vercel.app/3/manifest.json",
             "type": "Manifest",
             "label": {
                 "none": [
@@ -45,7 +45,7 @@
             }
         },
         {
-            "id": "http://anna-amelia-iiif.vercel.app/4/manifest.json",
+            "id": "https://anna-amelia-iiif.vercel.app/4/manifest.json",
             "type": "Manifest",
             "label": {
                 "none": [
@@ -54,7 +54,7 @@
             }
         },
         {
-            "id": "http://anna-amelia-iiif.vercel.app/5/manifest.json",
+            "id": "https://anna-amelia-iiif.vercel.app/5/manifest.json",
             "type": "Manifest",
             "label": {
                 "none": [
@@ -63,7 +63,7 @@
             }
         },
         {
-            "id": "http://anna-amelia-iiif.vercel.app/6/manifest.json",
+            "id": "https://anna-amelia-iiif.vercel.app/6/manifest.json",
             "type": "Manifest",
             "label": {
                 "none": [
@@ -72,7 +72,7 @@
             }
         },
         {
-            "id": "http://anna-amelia-iiif.vercel.app/7/manifest.json",
+            "id": "https://anna-amelia-iiif.vercel.app/7/manifest.json",
             "type": "Manifest",
             "label": {
                 "none": [
