@@ -1,0 +1,28 @@
+{
+  "@context": "http://iiif.io/api/image/3/context.json",
+  "id": "http://anna-amelia-iiif.vercel.app/3/53043674f240bac8a1a32611ddb9660e",
+  "type": "ImageService3",
+  "profile": "level0",
+  "protocol": "http://iiif.io/api/image",
+  "tiles": [
+    {
+      "scaleFactors": [
+        1,
+        2
+      ],
+      "width": 256
+    }
+  ],
+  "width": 875,
+  "height": 514,
+  "sizes": [
+    {
+      "width": 300,
+      "height": 176
+    },
+    {
+      "width": 2000,
+      "height": 1175
+    }
+  ]
+}

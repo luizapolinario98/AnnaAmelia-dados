@@ -1,0 +1,84 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "http://anna-amelia-iiif.vercel.app/index.json",
+    "type": "Collection",
+    "label": {
+        "none": [
+            "Anna Amélia de Queiroz Carneiro de Mendonça"
+        ]
+    },
+    "thumbnail": [
+        {
+            "id": "http://anna-amelia-iiif.vercel.app/1/727dbe60a537d8bc209de2fe40b79e13/full/300,279/0/default.png",
+            "type": "Image",
+            "format": "image/png",
+            "height": 279,
+            "width": 300
+        }
+    ],
+    "items": [
+        {
+            "id": "http://anna-amelia-iiif.vercel.app/1/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "Carta de solicitação de audiência com o presidente Getúlio Vargas"
+                ]
+            }
+        },
+        {
+            "id": "http://anna-amelia-iiif.vercel.app/2/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "Comissão Interamericana de Mujeres: Su origen y sus fines"
+                ]
+            }
+        },
+        {
+            "id": "http://anna-amelia-iiif.vercel.app/3/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "Convite para a recepção do Congresso"
+                ]
+            }
+        },
+        {
+            "id": "http://anna-amelia-iiif.vercel.app/4/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "Programa do XII Congresso Feminino em Instambul"
+                ]
+            }
+        },
+        {
+            "id": "http://anna-amelia-iiif.vercel.app/5/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "Relatório de 1944 apresentado à Comissão Interamericana de Mulheres pela representante do Brasil"
+                ]
+            }
+        },
+        {
+            "id": "http://anna-amelia-iiif.vercel.app/6/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "Telegrama de convite para audiência com o presidente Getúlio Vargas"
+                ]
+            }
+        },
+        {
+            "id": "http://anna-amelia-iiif.vercel.app/7/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "Uma comissão recebida pelo presidente da República"
+                ]
+            }
+        }
+    ]
+}

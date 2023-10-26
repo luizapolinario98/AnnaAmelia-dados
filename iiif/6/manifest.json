@@ -1,0 +1,70 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "http://anna-amelia-iiif.vercel.app/6/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Telegrama de convite para audiência com o presidente Getúlio Vargas"
+        ]
+    },
+    "requiredStatement": {
+        "label": "Atribuição",
+        "value": "Disponibilizado por FGV CPDOC"
+    },
+    "thumbnail": [
+        {
+            "id": "http://anna-amelia-iiif.vercel.app/6/14f065a39affaa9d49c92234e8de06c6/full/300,199/0/default.png",
+            "type": "Image",
+            "format": "image/png",
+            "height": 199,
+            "width": 300
+        }
+    ],
+    "homepage": [
+        {
+            "type": "Text",
+            "format": "text/html",
+            "label": {
+                "none": [
+                    "Página do objeto"
+                ]
+            }
+        }
+    ],
+    "items": [
+        {
+            "id": "http://anna-amelia-iiif.vercel.app/6/canvas/0",
+            "type": "Canvas",
+            "height": 736,
+            "width": 1107,
+            "items": [
+                {
+                    "id": "http://anna-amelia-iiif.vercel.app/6/canvas/0/annotation-page",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://anna-amelia-iiif.vercel.app/6/annotation/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "http://anna-amelia-iiif.vercel.app/6/canvas/0",
+                            "body": {
+                                "id": "http://anna-amelia-iiif.vercel.app/6/14f065a39affaa9d49c92234e8de06c6/full/2000,1330/0/default.png",
+                                "type": "Image",
+                                "format": "image/png",
+                                "height": 1330,
+                                "width": 2000,
+                                "service": [
+                                    {
+                                        "id": "http://anna-amelia-iiif.vercel.app/6/14f065a39affaa9d49c92234e8de06c6",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

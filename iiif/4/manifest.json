@@ -1,0 +1,108 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "http://anna-amelia-iiif.vercel.app/4/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Programa do XII Congresso Feminino em Instambul"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "Creator"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Alliance International pour le suffrage et l'action civique et politique des femmes"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Abril de 1935"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Type"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Documento - Programa de evento"
+                ]
+            }
+        }
+    ],
+    "requiredStatement": {
+        "label": "Atribuição",
+        "value": "Disponibilizado por FGV CPDOC"
+    },
+    "thumbnail": [
+        {
+            "id": "http://anna-amelia-iiif.vercel.app/4/eafc534b4ab84e72e5f639582ef89be6/full/216,300/0/default.png",
+            "type": "Image",
+            "format": "image/png",
+            "height": 300,
+            "width": 216
+        }
+    ],
+    "homepage": [
+        {
+            "type": "Text",
+            "format": "text/html",
+            "label": {
+                "none": [
+                    "Página do objeto"
+                ]
+            }
+        }
+    ],
+    "items": [
+        {
+            "id": "http://anna-amelia-iiif.vercel.app/4/canvas/0",
+            "type": "Canvas",
+            "height": 628,
+            "width": 452,
+            "items": [
+                {
+                    "id": "http://anna-amelia-iiif.vercel.app/4/canvas/0/annotation-page",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://anna-amelia-iiif.vercel.app/4/annotation/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "http://anna-amelia-iiif.vercel.app/4/canvas/0",
+                            "body": {
+                                "id": "http://anna-amelia-iiif.vercel.app/4/eafc534b4ab84e72e5f639582ef89be6/full/1439,2000/0/default.png",
+                                "type": "Image",
+                                "format": "image/png",
+                                "height": 2000,
+                                "width": 1439,
+                                "service": [
+                                    {
+                                        "id": "http://anna-amelia-iiif.vercel.app/4/eafc534b4ab84e72e5f639582ef89be6",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

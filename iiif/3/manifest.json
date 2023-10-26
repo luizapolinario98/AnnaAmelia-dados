@@ -1,0 +1,70 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "http://anna-amelia-iiif.vercel.app/3/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Convite para a recepção do Congresso"
+        ]
+    },
+    "requiredStatement": {
+        "label": "Atribuição",
+        "value": "Disponibilizado por FGV CPDOC"
+    },
+    "thumbnail": [
+        {
+            "id": "http://anna-amelia-iiif.vercel.app/3/53043674f240bac8a1a32611ddb9660e/full/300,176/0/default.png",
+            "type": "Image",
+            "format": "image/png",
+            "height": 176,
+            "width": 300
+        }
+    ],
+    "homepage": [
+        {
+            "type": "Text",
+            "format": "text/html",
+            "label": {
+                "none": [
+                    "Página do objeto"
+                ]
+            }
+        }
+    ],
+    "items": [
+        {
+            "id": "http://anna-amelia-iiif.vercel.app/3/canvas/0",
+            "type": "Canvas",
+            "height": 514,
+            "width": 875,
+            "items": [
+                {
+                    "id": "http://anna-amelia-iiif.vercel.app/3/canvas/0/annotation-page",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://anna-amelia-iiif.vercel.app/3/annotation/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "http://anna-amelia-iiif.vercel.app/3/canvas/0",
+                            "body": {
+                                "id": "http://anna-amelia-iiif.vercel.app/3/53043674f240bac8a1a32611ddb9660e/full/2000,1175/0/default.png",
+                                "type": "Image",
+                                "format": "image/png",
+                                "height": 1175,
+                                "width": 2000,
+                                "service": [
+                                    {
+                                        "id": "http://anna-amelia-iiif.vercel.app/3/53043674f240bac8a1a32611ddb9660e",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

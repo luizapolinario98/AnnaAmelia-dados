@@ -1,0 +1,70 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "http://anna-amelia-iiif.vercel.app/2/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Comissão Interamericana de Mujeres: Su origen y sus fines"
+        ]
+    },
+    "requiredStatement": {
+        "label": "Atribuição",
+        "value": "Disponibilizado por FGV CPDOC"
+    },
+    "thumbnail": [
+        {
+            "id": "http://anna-amelia-iiif.vercel.app/2/afb2e63eaaa00bb98c762d37663f0c1e/full/220,300/0/default.png",
+            "type": "Image",
+            "format": "image/png",
+            "height": 300,
+            "width": 220
+        }
+    ],
+    "homepage": [
+        {
+            "type": "Text",
+            "format": "text/html",
+            "label": {
+                "none": [
+                    "Página do objeto"
+                ]
+            }
+        }
+    ],
+    "items": [
+        {
+            "id": "http://anna-amelia-iiif.vercel.app/2/canvas/0",
+            "type": "Canvas",
+            "height": 638,
+            "width": 467,
+            "items": [
+                {
+                    "id": "http://anna-amelia-iiif.vercel.app/2/canvas/0/annotation-page",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://anna-amelia-iiif.vercel.app/2/annotation/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "http://anna-amelia-iiif.vercel.app/2/canvas/0",
+                            "body": {
+                                "id": "http://anna-amelia-iiif.vercel.app/2/afb2e63eaaa00bb98c762d37663f0c1e/full/1464,2000/0/default.png",
+                                "type": "Image",
+                                "format": "image/png",
+                                "height": 2000,
+                                "width": 1464,
+                                "service": [
+                                    {
+                                        "id": "http://anna-amelia-iiif.vercel.app/2/afb2e63eaaa00bb98c762d37663f0c1e",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
