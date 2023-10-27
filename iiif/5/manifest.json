@@ -1,5 +1,5 @@
 {
-    "@context": "https://iiif.io/api/presentation/3/context.json",
+    "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "https://anna-amelia-iiif.vercel.app/5/manifest.json",
     "type": "Manifest",
     "label": {
@@ -57,7 +57,7 @@
                                     {
                                         "id": "https://anna-amelia-iiif.vercel.app/5/94e0062e41f986d01bcfeeef56ae9605",
                                         "type": "ImageService3",
-                                        "profile": "https://iiif.io/api/image/3/level0.json"
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
                                     }
                                 ]
                             }
